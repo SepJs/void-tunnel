@@ -1,0 +1,10 @@
+name = "void-tunnel-edge"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Default HMAC-SHA256 key in hexadecimal (this key is automatically overwritten on launch)
+SECRET_KEY_HEX = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+
+# Default Decoy HTML website to show to firewalls
+DECOY_SITE_TITLE = "Documentation Wiki"
